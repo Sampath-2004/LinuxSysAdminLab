@@ -1,0 +1,7 @@
+[Unit]
+Description=Linux lab backup
+
+[Service]
+Type=oneshot
+User=root
+ExecStart=/usr/local/sbin/linuxlab-backup.sh

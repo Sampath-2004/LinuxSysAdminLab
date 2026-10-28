@@ -1,0 +1,38 @@
+# Credentials and private material
+.env
+.env.*
+!.env.example
+.ssh/
+**/.ssh/
+**/authorized_keys
+**/known_hosts
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+ansible_ed25519*
+*credentials*
+*password*
+# VM and installation payloads
+*.iso
+*.vdi
+*.vmdk
+*.vhd
+*.vhdx
+*.ova
+*.ovf
+*.sav
+Snapshots/
+# Backups, databases and build artifacts
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.db
+*.sqlite*
+backups/
+__pycache__/
+.venv/
+*.retry
+.DS_Store
+Thumbs.db
